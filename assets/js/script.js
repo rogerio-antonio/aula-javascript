@@ -10,3 +10,11 @@ minhaDiv.addEventListener("mouseover", function () {
 minhaDiv.addEventListener("mouseout", function () {
   minhaDiv.style.backgroundColor = "lightblue"; // Retorna à cor original quando o mouse sai da div
 });
+
+// Seleciona a div pelo ID
+const meuBotao = document.getElementById("meu_botao");
+  meuBotao.addEventListener("click", function () {
+    console.log("Você clicou");
+
+  });
+    
